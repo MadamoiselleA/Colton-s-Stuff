@@ -31,6 +31,10 @@ public class PlayerMovement
 				{
 					//update player position
 				}
+				else if(e.getKeyCode()==32)
+				{
+					//attack key
+				}
 			}
 			@Override
 			public void keyReleased(KeyEvent e)
