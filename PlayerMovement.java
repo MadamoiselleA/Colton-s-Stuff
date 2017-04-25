@@ -24,14 +24,14 @@ public class PlayerMovement
 				}
 				else if(e.getKeyCode()==38)//up arrow key pressed
 				{
-					if(MovementspaceObject.getY()<7)
+					if(MovementspaceObject.getY()<6)
 					{
 						MovementspaceObject.setY(MovementspaceObject.getY()+1);
 					}
 				}
 				else if(e.getKeyCode()==39)//right arrow key pressed
 				{
-					if(MovementspaceObject.getX()<7)
+					if(MovementspaceObject.getX()<6)
 					{
 						MovementspaceObject.setX(MovementspaceObject.getX()+1);
 					}
