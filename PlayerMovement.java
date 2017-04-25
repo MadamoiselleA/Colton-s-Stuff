@@ -33,7 +33,19 @@ public class PlayerMovement
 				}
 				else if(e.getKeyCode()==32)
 				{
-					//attack key
+					//attack key (space bar)
+				}
+				else if(e.getKeyCode()==90)
+				{
+					//Hit "z" key for item in spot 1
+				}
+				else if(e.getKeyCode()==88)
+				{
+					//Hit "x" key for item in spot 2
+				}
+				else if(e.getKeyCode()==67)
+				{
+					//Hit "c" key for item in spot 3
 				}
 			}
 			@Override
