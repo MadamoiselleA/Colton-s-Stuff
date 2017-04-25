@@ -47,6 +47,10 @@ public class PlayerMovement
 				{
 					//Hit "c" key for item in spot 3
 				}
+				else if(e.getKeyCode()==66)
+				{
+					//Hit "b" key to flip between weapons (bow and arrow, shank, bag of peanuts)
+				}
 			}
 			@Override
 			public void keyReleased(KeyEvent e)
