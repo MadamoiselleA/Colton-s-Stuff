@@ -17,21 +17,33 @@ public class PlayerMovement
 			{
 				if(e.getKeyCode()==37)//left arrow key pressed
 				{
-					//update player position
+					if(MovementspaceObject.getX()>0)
+					{
+						MovementspaceObject.setX(MovementspaceObject.getX()-1);
+					}
 				}
 				else if(e.getKeyCode()==38)//up arrow key pressed
 				{
-					//update player position
+					if(MovementspaceObject.getY()<7)
+					{
+						MovementspaceObject.setY(MovementspaceObject.getY()+1);
+					}
 				}
 				else if(e.getKeyCode()==39)//right arrow key pressed
 				{
-					//update player position
+					if(MovementspaceObject.getX()<7)
+					{
+						MovementspaceObject.setX(MovementspaceObject.getX()+1);
+					}
 				}
 				else if(e.getKeyCode()==40)//down arrow key pressed
 				{
-					//update player position
+					if(MovementspaceObject.getY()>0)
+					{
+						MovementspaceObject.setY(MovementspaceObject().getY()-1);
+					}
 				}
-				else if(e.getKeyCode()==32)
+				else if(e.getKeyCode()==32)//space bar pressed
 				{
 					//attack key
 				}
