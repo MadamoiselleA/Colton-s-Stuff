@@ -35,6 +35,17 @@ public class PlayerMovement
 					{
 						MovementspaceObject.setX(MovementspaceObject.getX()+1);
 					}
+					else
+					{
+						if(MovementspaceObject.getY()==3)
+						{
+							//move to next room
+							//paint new background and create meanie/freebie
+							//move player to left side of the room
+							MovementspaceObject.setX(0);
+							MovementspaceObject.setY(3);
+						}
+					}
 				}
 				else if(e.getKeyCode()==40)//down arrow key pressed
 				{
