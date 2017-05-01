@@ -66,10 +66,7 @@ public class PlayerMovement
 				{
 					//Hit "x" key for item in spot 2
 				}
-				else if(e.getKeyCode()==67)
-				{
-					//Hit "c" key for item in spot 3
-				}
+				//found out we dont need a "c" key anymore (onlt two types of items out there that are not weapons)
 				else if(e.getKeyCode()==66)
 				{
 					//Hit "b" key to flip between weapons (bow and arrow, shank, bag of peanuts)
